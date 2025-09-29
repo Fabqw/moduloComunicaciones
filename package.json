@@ -1,0 +1,21 @@
+{
+  "name": "modulo_comunicaciones",
+  "version": "1.0.0",
+  "description": "Módulo de comunicación interna desarrollado con Express.js para facilitar la interacción entre residentes y personal del edificio. Sistema centralizado de mensajería",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./client/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.2",
+    "express": "5.1.0",
+    "morgan": "1.10.1",
+    "socket.io": "4.8.1"
+  }
+}
